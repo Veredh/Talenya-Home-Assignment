@@ -1,23 +1,14 @@
 ﻿using Newtonsoft.Json.Linq;
+using System.Collections.Generic;
 
 namespace Home_Assignment
 {
     public class JsonFile
     {
-        private string fileName;
+        public string FileName { get; set; }
 
-        public string FileName
-        {
-            get { return fileName; }
-            set { fileName = value; }
-        }
+        public string PositionTitle { get; set; }
 
-        private JObject jsonFileContent;
-
-        public JObject JsonFileContent
-        {
-            get { return jsonFileContent; }
-            set { jsonFileContent = value; }
-        }
+        public List<string> Skills { get; set; }
     }
 }
