@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 namespace Home_Assignment
 {
+    /// <summary>
+    /// This class is responsible for gathering the data of a text file
+    /// </summary>
     public class TextFile
     {
         private string fileName;

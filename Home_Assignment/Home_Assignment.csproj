@@ -40,7 +40,6 @@
     <Compile Include="Handler.cs" />
     <Compile Include="JsonFile.cs" />
     <Compile Include="JsonOutput.cs" />
-    <Compile Include="List.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="TextFile.cs" />
   </ItemGroup>
