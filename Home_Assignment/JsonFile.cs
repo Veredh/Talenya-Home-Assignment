@@ -4,16 +4,20 @@ namespace Home_Assignment
 {
     public class JsonFile
     {
-        public string fileName
+        private string fileName;
+
+        public string FileName
         {
             get { return fileName; }
             set { fileName = value; }
         }
-        
-        public JObject jsonObject
+
+        private JObject jsonFileContent;
+
+        public JObject JsonFileContent
         {
-            get { return jsonObject; }
-            set { jsonObject = value; }
+            get { return jsonFileContent; }
+            set { jsonFileContent = value; }
         }
     }
 }
