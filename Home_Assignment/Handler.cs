@@ -253,7 +253,7 @@ namespace Home_Assignment
         /// </returns>
         private List<string> sortSkillOccurences(List<string> skills)
         {
-            return skills.OrderByDescending(x => x).Reverse().ToList();
+            return skills.OrderByDescending(x => x).ToList();
         }
 
         /// <summary>
